@@ -3,4 +3,7 @@ project(C_Primer_Plus C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(C_Primer_Plus main.c)
+add_executable(C_Primer_Plus
+#        main.c
+#        chap3/bases.c
+        chap3/float_point.c)
