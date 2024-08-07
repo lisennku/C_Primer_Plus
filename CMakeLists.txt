@@ -6,4 +6,7 @@ set(CMAKE_C_STANDARD 11)
 add_executable(C_Primer_Plus
 #        main.c
 #        chap3/bases.c
-        chap3/float_point.c)
+#        chap3/float_point.c
+#        chap4/talkback.c
+        chap4/diff_sizeof_strlen.c
+)
