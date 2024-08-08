@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/lisen/CLionProjects/C_Primer_Plus/cmake-build-de
 
 build cmake_object_order_depends_target_C_Primer_Plus: phony || CMakeFiles/C_Primer_Plus.dir
 
-build CMakeFiles/C_Primer_Plus.dir/chap4/diff_sizeof_strlen.c.obj: C_COMPILER__C_Primer_Plus_unscanned_Debug C$:/Users/lisen/CLionProjects/C_Primer_Plus/chap4/diff_sizeof_strlen.c || cmake_object_order_depends_target_C_Primer_Plus
-  DEP_FILE = CMakeFiles\C_Primer_Plus.dir\chap4\diff_sizeof_strlen.c.obj.d
+build CMakeFiles/C_Primer_Plus.dir/chap5/sequence_point.c.obj: C_COMPILER__C_Primer_Plus_unscanned_Debug C$:/Users/lisen/CLionProjects/C_Primer_Plus/chap5/sequence_point.c || cmake_object_order_depends_target_C_Primer_Plus
+  DEP_FILE = CMakeFiles\C_Primer_Plus.dir\chap5\sequence_point.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\C_Primer_Plus.dir
-  OBJECT_FILE_DIR = CMakeFiles\C_Primer_Plus.dir\chap4
+  OBJECT_FILE_DIR = CMakeFiles\C_Primer_Plus.dir\chap5
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/C_Primer_Plus.dir/chap4/diff_sizeof_strlen.c.obj: C_COMPILER__C
 #############################################
 # Link the executable C_Primer_Plus.exe
 
-build C_Primer_Plus.exe: C_EXECUTABLE_LINKER__C_Primer_Plus_Debug CMakeFiles/C_Primer_Plus.dir/chap4/diff_sizeof_strlen.c.obj
+build C_Primer_Plus.exe: C_EXECUTABLE_LINKER__C_Primer_Plus_Debug CMakeFiles/C_Primer_Plus.dir/chap5/sequence_point.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C_Primer_Plus.dir
